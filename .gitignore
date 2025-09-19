@@ -1,0 +1,33 @@
+# Node dependencies
+node_modules/
+
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Test configuration with sensitive data
+config/test.config.yaml
+
+# Environment variables
+.env
+.env.*
+
+# VS Code settings
+.vscode/*
+!.vscode/tasks.json
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test screenshots and videos
+**/test-results/
+**/screenshots/
+**/videos/

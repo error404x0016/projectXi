@@ -1,0 +1,21 @@
+urls:
+  ncps:
+    base: 'https://hscms.np.prj.simsys.sg/ncps'
+    credentials:
+      username: 'your-username'
+      password: 'your-password'
+
+viewports:
+  desktop:
+    width: 1920
+    height: 1080
+  iphone14Pro:
+    width: 393
+    height: 852
+  ipad10:
+    width: 1180
+    height: 820
+
+timeouts:
+  navigation: 30000
+  element: 30000
